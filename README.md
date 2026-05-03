@@ -11,7 +11,7 @@ This repository contains the MATLAB codebase and technical documentation for a S
 
 ## Repository Contents
 * `car_RWD_with_control.m` - The primary discrete LQR and PID control algorithms featuring persistent memory allocation for digital ECU simulation.
-* `My_OL_Path.m` - Spatial pathing and velocity profile generation logic.
+* `Derby_Path.m` - Spatial pathing and velocity profile generation logic.
 * `CarSimRealTime.m` - The continuous ODE solver and physics environment wrapper.
 * `F1CarData.mat` - Static vehicle parameters (mass, aero drag, physical actuator limits).
 * `Final_Report.pdf` - Comprehensive breakdown of controller tuning, mathematical constraints, and simulation telemetry.
