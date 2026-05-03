@@ -16,7 +16,7 @@ This repository contains the MATLAB codebase and technical documentation for a S
 * `Speed_control.m` - The discrete PID + Feedforward longitudinal speed control algorithm.
 * `Derby_Path_Generation.m` - The core logic for spatial pathing and velocity profile generation.
 * `Derby_Path.mat` - The generated and highly optimized trajectory data array.
-* `The_Derbmobile.mat` - Static vehicle parameters (mass, aero drag, physical actuator limits).
+* `The_Derbmobile.mat` - Simulation results array.
 * `Utilities/` - Directory containing supporting functions and baseline dependencies.
 
 ## How to Run the Simulation
