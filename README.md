@@ -5,7 +5,7 @@ This repository contains the MATLAB codebase and technical documentation for a S
 📄 **[Read the Full Technical Report Here](Final_Report.pdf)** *(Note: Click "View raw" or download the PDF to ensure the internal document links work correctly).*
 
 ## Project Highlights
-* **Optimized Trajectory:** Developed a curvature-based velocity profile and "out-in-out" geometric racing line using Modified Akima (`makima`) splines, achieving a zero-violation closed-loop lap time of **178.30 seconds**.
+* **Optimized Trajectory:** Developed a curvature-based velocity profile and "out-in-out" geometric racing line using Modified Akima (`makima`) splines, achieving a zero-violation closed-loop lap time of **172.15 seconds**.
 * **Decoupled Control System:** Implemented a discrete LQR lateral steering controller paired with a PID + Feedforward longitudinal speed controller to respect absolute tire friction-circle limits (5000 N Front, 5500 N Rear).
 * **Forensic Systems Analysis:** Conducted a deep-dive diagnostic into continuous ODE solver mathematics, successfully isolating an integration divergence caused by Zero-Order Hold (ZOH) data truncation within the Runge-Kutta (RK4) sub-steps.
 
