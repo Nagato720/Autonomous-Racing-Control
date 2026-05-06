@@ -16,7 +16,7 @@ This repository contains the MATLAB codebase and technical documentation for a S
 * `Speed_control.m` - The discrete PID + Feedforward longitudinal speed control algorithm.
 * `Derby_Path_Generation.m` - The core logic for spatial pathing and velocity profile generation.
 * `Derby_Path.mat` - The generated and highly optimized trajectory data array.
-* `The_Derbmobile.mat` - Simulation results array.
+* `The_Derbmobile.mat` - Resultant vehicle performance metrics.
 * `Utilities/` - Directory containing supporting functions and baseline dependencies.
 
 ## How to Run the Simulation
@@ -30,3 +30,6 @@ This repository contains the MATLAB codebase and technical documentation for a S
 * PID & Feedforward Control
 * Kinematic Bicycle Modeling
 * Numerical Integration (RK4) Diagnostics
+
+## Acknowledgments
+Special thanks to **Professor Chaozhe He** for providing the foundational vehicle dynamics wrapper (`CarSimRealTime.m`), baseline physics equations, and base vehicle parameters that made this Software-in-the-Loop (SIL) control project possible.
